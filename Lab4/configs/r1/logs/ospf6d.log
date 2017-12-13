@@ -1,8 +1,0 @@
-2017/11/19 13:28:05 OSPF6: OSPF6d (Quagga-0.99.22.4 ospf6d-0.9.7r) starts: vty@2606
-2017/11/19 13:37:05 OSPF6: Terminating on signal SIGTERM
-2017/11/19 13:37:11 OSPF6: OSPF6d (Quagga-0.99.22.4 ospf6d-0.9.7r) starts: vty@2606
-2017/11/19 13:45:36 OSPF6: OSPF6d (Quagga-0.99.22.4 ospf6d-0.9.7r) starts: vty@2606
-2017/11/19 13:45:36 OSPF6: sendmsg failed: ifindex: 83: Invalid argument (22)
-2017/11/19 13:45:36 OSPF6: Could not send entire message
-2017/11/19 14:02:23 OSPF6: Terminating on signal SIGTERM
-2017/11/19 14:02:33 OSPF6: OSPF6d (Quagga-0.99.22.4 ospf6d-0.9.7r) starts: vty@2606
