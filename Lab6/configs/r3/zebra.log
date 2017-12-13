@@ -1,0 +1,904 @@
+2017/12/13 09:45:02 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 09:45:02 ZEBRA: client 16 says hello and bids fair to announce only bgp routes
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 09:45:02 ZEBRA: client 18 says hello and bids fair to announce only ospf routes
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 09:45:02 ZEBRA: client 19 says hello and bids fair to announce only ospf6 routes
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 09:45:02 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 09:45:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 09:45:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 09:45:07 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:45:07 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:45:07 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:45:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 09:45:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:10 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:10 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:10 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:45:10 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:45:10 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 09:45:10 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:45:10 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:45:10 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:45:10 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 09:45:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:42 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 09:45:52 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 09:45:53 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 09:46:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:46:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:46:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:46:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:46:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:46:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:46:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:46:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:46:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:46:02 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 09:47:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:47:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:47:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:47:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:47:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:47:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:47:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:47:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:47:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:48:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:48:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:48:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:48:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:48:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:48:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:48:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:48:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:48:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:49:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:49:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:49:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:49:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:49:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:49:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:49:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:49:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:49:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:50:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:50:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:50:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:50:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:50:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:50:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:50:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:50:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:50:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:51:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:51:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:51:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:51:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:51:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:51:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:51:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:51:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:51:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:52:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:52:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:52:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:52:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:52:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:52:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:52:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:52:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:52:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:53:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:53:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:53:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:53:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:53:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:53:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:53:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:53:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:53:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:54:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:54:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:54:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:54:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:54:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:54:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:54:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:54:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:54:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:55:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:55:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:55:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:55:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:55:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:55:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:55:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:55:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:55:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:56:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:56:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:56:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:56:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:56:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:56:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:56:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:56:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:56:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:57:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:57:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:57:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:57:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:57:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:57:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:57:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:57:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:57:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:58:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:58:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:58:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:58:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:58:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:58:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:58:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:58:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:58:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:59:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:59:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 09:59:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:59:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:59:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 09:59:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 09:59:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 09:59:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 09:59:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:00:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:00:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:00:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:00:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:00:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:00:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:00:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:00:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:00:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:01:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:01:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:01:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:01:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:01:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:01:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:01:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:01:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:01:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:02:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:02:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:02:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:02:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:02:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:02:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:02:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:02:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:02:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:03:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:03:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:03:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:03:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:03:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:03:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:03:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:03:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:03:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:04:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:04:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:04:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:04:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:04:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:04:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:04:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:04:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:04:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:05:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:05:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:05:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:05:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:05:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:05:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:05:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:05:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:05:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:06:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:06:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:06:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:06:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:06:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:06:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:06:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:06:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:06:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:07:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:07:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:07:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:07:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:07:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:07:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:07:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:07:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:07:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:08:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:08:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:08:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:08:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:08:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:08:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:08:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:08:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:08:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:09:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:09:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:09:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:09:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:09:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:09:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:09:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:09:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:09:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:10:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:10:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:10:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:10:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:10:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:10:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:10:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:10:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:10:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:11:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:11:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:11:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:11:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:11:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:11:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:11:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:11:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:11:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:12:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:12:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:12:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:12:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:12:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:12:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:12:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:12:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:12:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:13:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:13:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:13:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:13:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:13:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.4
+2017/12/13 10:13:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:13:02 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:13:02 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:13:02 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:21 ZEBRA: netlink-cmd error: Invalid argument, type=RTM_NEWROUTE(24), seq=37, pid=0
+2017/12/13 10:13:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:13:30 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:13:30 ZEBRA: client 16 says hello and bids fair to announce only bgp routes
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:13:30 ZEBRA: client 18 says hello and bids fair to announce only ospf routes
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:13:30 ZEBRA: client 19 says hello and bids fair to announce only ospf6 routes
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:13:30 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:13:31 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:13:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:13:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:13:36 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:13:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:40 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:13:42 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:13:42 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:13:42 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:14:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:11 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:11 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/12/13 10:14:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:14:21 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:22 ZEBRA: netlink-cmd error: Invalid argument, type=RTM_NEWROUTE(24), seq=35, pid=0
+2017/12/13 10:14:22 ZEBRA: netlink-cmd error: Invalid argument, type=RTM_NEWROUTE(24), seq=36, pid=0
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: netlink-cmd error: Invalid argument, type=RTM_NEWROUTE(24), seq=37, pid=0
+2017/12/13 10:14:22 ZEBRA: netlink-cmd error: Invalid argument, type=RTM_NEWROUTE(24), seq=39, pid=0
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:14:22 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:16:02 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:16:35 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:18:35 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:21:54 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:22:56 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:25:36 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:26:40 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:26:40 ZEBRA: client 16 says hello and bids fair to announce only bgp routes
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:26:40 ZEBRA: client 18 says hello and bids fair to announce only ospf routes
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:26:40 ZEBRA: client 19 says hello and bids fair to announce only ospf6 routes
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:26:40 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:26:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:26:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:26:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:26:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:26:47 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:26:48 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:26:48 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:26:48 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:26:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:26:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:30 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:27:31 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:27:33 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:27:33 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:27:33 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:27:40 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:27:40 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:27:40 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:27:40 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:27:40 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:27:40 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:27:40 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:27:48 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:27:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:48 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:27:49 ZEBRA: netlink-cmd error: Invalid argument, type=RTM_NEWROUTE(24), seq=33, pid=0
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:49 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:27:58 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:27:58 ZEBRA: client 16 says hello and bids fair to announce only bgp routes
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:27:58 ZEBRA: client 18 says hello and bids fair to announce only ospf routes
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:27:58 ZEBRA: client 19 says hello and bids fair to announce only ospf6 routes
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:27:58 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:28:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:07 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:28:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:28:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:28:12 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:28:12 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:28:12 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:28:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:38 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:39 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:39 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:43 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:47 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:28:49 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:28:50 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:28:52 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:28:52 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:28:52 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:28:58 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:28:58 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:28:58 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:28:58 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:28:58 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:28:58 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:28:58 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:29:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:16 ZEBRA: netlink-cmd error: Invalid argument, type=RTM_NEWROUTE(24), seq=40, pid=0
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:17 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:29:23 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:29:23 ZEBRA: client 16 says hello and bids fair to announce only bgp routes
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:29:23 ZEBRA: client 18 says hello and bids fair to announce only ospf routes
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:29:23 ZEBRA: client 19 says hello and bids fair to announce only ospf6 routes
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:29:23 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:29:27 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:29:27 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:29:27 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:29:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:32 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:29:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:29:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:29:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:29:37 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:03 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:03 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/12/13 10:30:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:30:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:30:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:30:12 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:30:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:30:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:30:14 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:30:17 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:30:17 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:30:17 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:30:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:30:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:30:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:30:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:30:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:30:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:30:23 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:31:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:31:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:31:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:31:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:31:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:31:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:32:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:32:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:32:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:32:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:32:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:32:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:33:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:33:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:33:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:33:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:33:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:33:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:34:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:34:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:34:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:34:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:34:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:34:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:35:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:35:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:35:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:35:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:35:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:35:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:36:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:36:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:36:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:36:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:36:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:36:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:37:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:37:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:37:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:37:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:37:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:37:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:38:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:38:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:38:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:38:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:38:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:38:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:38:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:38:32 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:38:32 ZEBRA: client 16 says hello and bids fair to announce only bgp routes
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:38:32 ZEBRA: client 18 says hello and bids fair to announce only ospf routes
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:38:32 ZEBRA: client 19 says hello and bids fair to announce only ospf6 routes
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:38:32 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:38:33 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:38:40 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:38:40 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:38:40 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:38:41 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:41 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:41 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:41 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:38:41 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:38:41 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:38:45 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:38:45 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:13 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:13 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 15
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:39:18 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:39:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:39:20 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:39:23 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:39:23 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:39:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:39:24 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:39:26 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:39:26 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:39:26 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:39:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:39:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:39:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:39:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:39:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:39:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:40:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:40:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:40:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:40:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:40:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:40:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:41:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:41:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:41:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:41:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:41:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:41:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:42:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:42:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:42:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:42:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:42:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:42:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:43:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:43:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:43:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:43:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:43:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:43:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:44:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:44:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:44:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:44:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:44:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:44:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:45:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:45:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:45:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:45:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:45:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:45:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:46:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:46:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:46:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:46:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:46:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:46:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:47:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:47:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:47:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:47:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:47:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:47:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:48:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:48:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:48:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:48:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:48:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:48:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:49:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:49:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:49:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:49:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:49:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:49:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:50:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:50:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:50:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:50:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:50:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:50:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:51:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:51:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:51:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:51:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:51:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:51:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:52:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:52:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:52:32 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:52:32 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:52:32 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:52:32 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:53:08 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:53:08 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:53:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:08 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:09 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:15 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:53:16 ZEBRA: client 16 says hello and bids fair to announce only bgp routes
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:53:16 ZEBRA: client 18 says hello and bids fair to announce only ospf routes
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/12/13 10:53:16 ZEBRA: client 19 says hello and bids fair to announce only ospf6 routes
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/12/13 10:53:16 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 19
+2017/12/13 10:53:20 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:53:20 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:53:20 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:53:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:53:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:53:23 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:53:23 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:53:23 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:53:23 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:53:23 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:53:23 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 20
+2017/12/13 10:53:24 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:24 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:25 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:29 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:29 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:56 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:56 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:56 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:53:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:53:57 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:54:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:54:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:54:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:54:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:54:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:54:01 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:54:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:54:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_DELETE] 41
+2017/12/13 10:54:04 ZEBRA: zebra message received [ZEBRA_IPV6_ROUTE_ADD] 41
+2017/12/13 10:54:06 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:54:06 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_DELETE] 19
+2017/12/13 10:54:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:54:07 ZEBRA: zebra message received [ZEBRA_IPV4_ROUTE_ADD] 23
+2017/12/13 10:54:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:54:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:54:16 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:54:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:54:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:54:16 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:55:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:55:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:55:16 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:55:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:55:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:55:16 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:56:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:56:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:56:16 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:56:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:56:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:56:16 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:57:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:57:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:57:16 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:57:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:57:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:57:16 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
+2017/12/13 10:58:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:58:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.24.24.2
+2017/12/13 10:58:16 ZEBRA: zsend_ipv4_nexthop_lookup: No matching rib entry found.
+2017/12/13 10:58:16 ZEBRA: zebra message received [ZEBRA_IPV4_NEXTHOP_LOOKUP] 4
+2017/12/13 10:58:16 ZEBRA: zread_ipv4_nexthop_lookup: looking up 192.34.34.5
+2017/12/13 10:58:16 ZEBRA: zsend_ipv4_nexthop_lookup: Matching rib entry found.
